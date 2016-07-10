@@ -18,14 +18,28 @@ class RegistrationViewController: UIViewController {
     }
     
     @IBAction func signInButton(sender: AnyObject) {
-        authenticate()
+        signIn()
     }
     
     @IBAction func registerButton(sender: AnyObject) {
-        authenticate()
+        register()
     }
     
-    func authenticate() {
+    func register() {
+        let email = usernameTextField.text
+        let password = passwordTextField.text
+        if (email != nil && password != nil) {
+            FIRAuth.auth()?.createUserWithEmail(email!, password: password!) { (user, error) in
+                if (error != nil) {
+                    print("error!")
+                } else {
+                    print("success")
+                }
+            }
+        }
+    }
+    
+    func signIn() {
         let email = usernameTextField.text
         let password = passwordTextField.text
         if (email != nil && password != nil) {
