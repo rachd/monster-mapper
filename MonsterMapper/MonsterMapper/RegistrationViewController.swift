@@ -18,10 +18,22 @@ class RegistrationViewController: UIViewController {
     
     @IBAction func signInButton(sender: AnyObject) {
         print("Tapped sign in button.")
+        signIn()
     }
     
     @IBAction func registerButton(sender: AnyObject) {
         print("Tapped register button.")
+    }
+    
+    func signIn() {
+        let username = usernameTextField.text
+        let password = passwordTextField.text
+        if (username != nil) {
+            print(username!)
+        }
+        if (password != nil) {
+            print(password!)
+        }
     }
 }
 
