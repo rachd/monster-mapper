@@ -11,9 +11,9 @@
 		230C55C21D32C059007405B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230C55C11D32C059007405B9 /* Assets.xcassets */; };
 		230C55C51D32C059007405B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230C55C31D32C059007405B9 /* LaunchScreen.storyboard */; };
 		230C55D01D32C059007405B9 /* MonsterMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C55CF1D32C059007405B9 /* MonsterMapperTests.swift */; };
-		230C55DC1D32C09D007405B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230C55DA1D32C09D007405B9 /* Main.storyboard */; };
 		230C55DE1D32C0B1007405B9 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C55DD1D32C0B1007405B9 /* RegistrationViewController.swift */; };
 		230C55E01D32C0BD007405B9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C55DF1D32C0BD007405B9 /* MapViewController.swift */; };
+		237887F41D32E4A300EF72E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237887F31D32E4A300EF72E0 /* Main.storyboard */; };
 		BFA0E1E2C8056F6839E24BA9 /* Pods_MonsterMapperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5EC2395E19E40E6FBAED4F /* Pods_MonsterMapperTests.framework */; };
 		EFEE9F2AF3F4C4EB616BEBF4 /* Pods_MonsterMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6E9C34EEF1AA26C7E61F94 /* Pods_MonsterMapper.framework */; };
 /* End PBXBuildFile section */
@@ -39,9 +39,9 @@
 		230C55CB1D32C059007405B9 /* MonsterMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		230C55CF1D32C059007405B9 /* MonsterMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterMapperTests.swift; sourceTree = "<group>"; };
 		230C55D11D32C059007405B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		230C55DB1D32C09D007405B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../monster-mapper-OLD/MonsterMappers/MonsterMappers/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		230C55DD1D32C0B1007405B9 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		230C55DF1D32C0BD007405B9 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		237887F31D32E4A300EF72E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6A5EC2395E19E40E6FBAED4F /* Pods_MonsterMapperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonsterMapperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C3426AC59E99B54609FC84 /* Pods-MonsterMapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterMapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterMapperTests/Pods-MonsterMapperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E60780068176120BE606C3B3 /* Pods-MonsterMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterMapper/Pods-MonsterMapper.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 				230C55BA1D32C059007405B9 /* AppDelegate.swift */,
 				230C55DD1D32C0B1007405B9 /* RegistrationViewController.swift */,
 				230C55DF1D32C0BD007405B9 /* MapViewController.swift */,
-				230C55DA1D32C09D007405B9 /* Main.storyboard */,
+				237887F31D32E4A300EF72E0 /* Main.storyboard */,
 				230C55C11D32C059007405B9 /* Assets.xcassets */,
 				230C55C31D32C059007405B9 /* LaunchScreen.storyboard */,
 				230C55C61D32C059007405B9 /* Info.plist */,
@@ -220,7 +220,7 @@
 			files = (
 				230C55C51D32C059007405B9 /* LaunchScreen.storyboard in Resources */,
 				230C55C21D32C059007405B9 /* Assets.xcassets in Resources */,
-				230C55DC1D32C09D007405B9 /* Main.storyboard in Resources */,
+				237887F41D32E4A300EF72E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,15 +362,6 @@
 				230C55C41D32C059007405B9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		230C55DA1D32C09D007405B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				230C55DB1D32C09D007405B9 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
