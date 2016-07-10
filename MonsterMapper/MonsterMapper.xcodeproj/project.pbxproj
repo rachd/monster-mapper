@@ -15,6 +15,7 @@
 		230C55E01D32C0BD007405B9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C55DF1D32C0BD007405B9 /* MapViewController.swift */; };
 		237887F41D32E4A300EF72E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237887F31D32E4A300EF72E0 /* Main.storyboard */; };
 		BFA0E1E2C8056F6839E24BA9 /* Pods_MonsterMapperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5EC2395E19E40E6FBAED4F /* Pods_MonsterMapperTests.framework */; };
+		CC5E71031D32F4F50016852F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC5E71021D32F4F50016852F /* GoogleService-Info.plist */; };
 		EFEE9F2AF3F4C4EB616BEBF4 /* Pods_MonsterMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6E9C34EEF1AA26C7E61F94 /* Pods_MonsterMapper.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		230C55DF1D32C0BD007405B9 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		237887F31D32E4A300EF72E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6A5EC2395E19E40E6FBAED4F /* Pods_MonsterMapperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonsterMapperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5E71021D32F4F50016852F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D0C3426AC59E99B54609FC84 /* Pods-MonsterMapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterMapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterMapperTests/Pods-MonsterMapperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E60780068176120BE606C3B3 /* Pods-MonsterMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterMapper/Pods-MonsterMapper.release.xcconfig"; sourceTree = "<group>"; };
 		FB458101A3B48422A797E10D /* Pods-MonsterMapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterMapperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterMapperTests/Pods-MonsterMapperTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				230C55C11D32C059007405B9 /* Assets.xcassets */,
 				230C55C31D32C059007405B9 /* LaunchScreen.storyboard */,
 				230C55C61D32C059007405B9 /* Info.plist */,
+				CC5E71021D32F4F50016852F /* GoogleService-Info.plist */,
 			);
 			path = MonsterMapper;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				230C55C51D32C059007405B9 /* LaunchScreen.storyboard in Resources */,
+				CC5E71031D32F4F50016852F /* GoogleService-Info.plist in Resources */,
 				230C55C21D32C059007405B9 /* Assets.xcassets in Resources */,
 				237887F41D32E4A300EF72E0 /* Main.storyboard in Resources */,
 			);

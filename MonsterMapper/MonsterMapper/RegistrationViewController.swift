@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class RegistrationViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
@@ -17,22 +18,24 @@ class RegistrationViewController: UIViewController {
     }
     
     @IBAction func signInButton(sender: AnyObject) {
-        print("Tapped sign in button.")
-        signIn()
+        authenticate()
     }
     
     @IBAction func registerButton(sender: AnyObject) {
-        print("Tapped register button.")
+        authenticate()
     }
     
-    func signIn() {
-        let username = usernameTextField.text
+    func authenticate() {
+        let email = usernameTextField.text
         let password = passwordTextField.text
-        if (username != nil) {
-            print(username!)
-        }
-        if (password != nil) {
-            print(password!)
+        if (email != nil && password != nil) {
+            FIRAuth.auth()?.createUserWithEmail(email!, password: password!) { (user, error) in
+                if (error != nil) {
+                    print("error!")
+                } else {
+                    print("success")
+                }
+            }
         }
     }
 }

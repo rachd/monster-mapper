@@ -9,6 +9,7 @@ target 'MonsterMapper' do
   source 'https://github.com/CocoaPods/Specs.git'
   pod 'GoogleMaps'
   pod 'Firebase'
+  pod 'Firebase/Auth'
 
   target 'MonsterMapperTests' do
     inherit! :search_paths
