@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230C55BB1D32C059007405B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C55BA1D32C059007405B9 /* AppDelegate.swift */; };
+		230C55C21D32C059007405B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230C55C11D32C059007405B9 /* Assets.xcassets */; };
+		230C55C51D32C059007405B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230C55C31D32C059007405B9 /* LaunchScreen.storyboard */; };
+		230C55D01D32C059007405B9 /* MonsterMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C55CF1D32C059007405B9 /* MonsterMapperTests.swift */; };
+		230C55DC1D32C09D007405B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230C55DA1D32C09D007405B9 /* Main.storyboard */; };
+		230C55DE1D32C0B1007405B9 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C55DD1D32C0B1007405B9 /* RegistrationViewController.swift */; };
+		230C55E01D32C0BD007405B9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C55DF1D32C0BD007405B9 /* MapViewController.swift */; };
+		BFA0E1E2C8056F6839E24BA9 /* Pods_MonsterMapperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5EC2395E19E40E6FBAED4F /* Pods_MonsterMapperTests.framework */; };
+		EFEE9F2AF3F4C4EB616BEBF4 /* Pods_MonsterMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6E9C34EEF1AA26C7E61F94 /* Pods_MonsterMapper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		230C55CC1D32C059007405B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 230C55AF1D32C059007405B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230C55B61D32C059007405B9;
+			remoteInfo = MonsterMapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CB4D9A99B04A297B544A31 /* Pods-MonsterMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterMapper/Pods-MonsterMapper.debug.xcconfig"; sourceTree = "<group>"; };
+		0A6E9C34EEF1AA26C7E61F94 /* Pods_MonsterMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonsterMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		230C55B71D32C059007405B9 /* MonsterMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		230C55BA1D32C059007405B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		230C55C11D32C059007405B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		230C55C41D32C059007405B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		230C55C61D32C059007405B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230C55CB1D32C059007405B9 /* MonsterMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		230C55CF1D32C059007405B9 /* MonsterMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterMapperTests.swift; sourceTree = "<group>"; };
+		230C55D11D32C059007405B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230C55DB1D32C09D007405B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../monster-mapper-OLD/MonsterMappers/MonsterMappers/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		230C55DD1D32C0B1007405B9 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		230C55DF1D32C0BD007405B9 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6A5EC2395E19E40E6FBAED4F /* Pods_MonsterMapperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonsterMapperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C3426AC59E99B54609FC84 /* Pods-MonsterMapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterMapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterMapperTests/Pods-MonsterMapperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E60780068176120BE606C3B3 /* Pods-MonsterMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterMapper/Pods-MonsterMapper.release.xcconfig"; sourceTree = "<group>"; };
+		FB458101A3B48422A797E10D /* Pods-MonsterMapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterMapperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterMapperTests/Pods-MonsterMapperTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		230C55B41D32C059007405B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEE9F2AF3F4C4EB616BEBF4 /* Pods_MonsterMapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230C55C81D32C059007405B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA0E1E2C8056F6839E24BA9 /* Pods_MonsterMapperTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230C55AE1D32C059007405B9 = {
+			isa = PBXGroup;
+			children = (
+				230C55B91D32C059007405B9 /* MonsterMapper */,
+				230C55CE1D32C059007405B9 /* MonsterMapperTests */,
+				230C55B81D32C059007405B9 /* Products */,
+				7C967238AEC198D5069687B4 /* Pods */,
+				284BD4C9330A67C76CA03A15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		230C55B81D32C059007405B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				230C55B71D32C059007405B9 /* MonsterMapper.app */,
+				230C55CB1D32C059007405B9 /* MonsterMapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		230C55B91D32C059007405B9 /* MonsterMapper */ = {
+			isa = PBXGroup;
+			children = (
+				230C55BA1D32C059007405B9 /* AppDelegate.swift */,
+				230C55DD1D32C0B1007405B9 /* RegistrationViewController.swift */,
+				230C55DF1D32C0BD007405B9 /* MapViewController.swift */,
+				230C55DA1D32C09D007405B9 /* Main.storyboard */,
+				230C55C11D32C059007405B9 /* Assets.xcassets */,
+				230C55C31D32C059007405B9 /* LaunchScreen.storyboard */,
+				230C55C61D32C059007405B9 /* Info.plist */,
+			);
+			path = MonsterMapper;
+			sourceTree = "<group>";
+		};
+		230C55CE1D32C059007405B9 /* MonsterMapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				230C55CF1D32C059007405B9 /* MonsterMapperTests.swift */,
+				230C55D11D32C059007405B9 /* Info.plist */,
+			);
+			path = MonsterMapperTests;
+			sourceTree = "<group>";
+		};
+		284BD4C9330A67C76CA03A15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E9C34EEF1AA26C7E61F94 /* Pods_MonsterMapper.framework */,
+				6A5EC2395E19E40E6FBAED4F /* Pods_MonsterMapperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C967238AEC198D5069687B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04CB4D9A99B04A297B544A31 /* Pods-MonsterMapper.debug.xcconfig */,
+				E60780068176120BE606C3B3 /* Pods-MonsterMapper.release.xcconfig */,
+				D0C3426AC59E99B54609FC84 /* Pods-MonsterMapperTests.debug.xcconfig */,
+				FB458101A3B48422A797E10D /* Pods-MonsterMapperTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		230C55B61D32C059007405B9 /* MonsterMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230C55D41D32C059007405B9 /* Build configuration list for PBXNativeTarget "MonsterMapper" */;
+			buildPhases = (
+				BE02D26EC0428A9E082106B3 /* [CP] Check Pods Manifest.lock */,
+				230C55B31D32C059007405B9 /* Sources */,
+				230C55B41D32C059007405B9 /* Frameworks */,
+				230C55B51D32C059007405B9 /* Resources */,
+				50E6014C1DF4D47016196514 /* [CP] Embed Pods Frameworks */,
+				495011B00C67EBB7D3B8D3A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonsterMapper;
+			productName = MonsterMapper;
+			productReference = 230C55B71D32C059007405B9 /* MonsterMapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		230C55CA1D32C059007405B9 /* MonsterMapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230C55D71D32C059007405B9 /* Build configuration list for PBXNativeTarget "MonsterMapperTests" */;
+			buildPhases = (
+				6268162DB6F0719935428F33 /* [CP] Check Pods Manifest.lock */,
+				230C55C71D32C059007405B9 /* Sources */,
+				230C55C81D32C059007405B9 /* Frameworks */,
+				230C55C91D32C059007405B9 /* Resources */,
+				0A72EE2177E24A048E3A07F5 /* [CP] Embed Pods Frameworks */,
+				E60C386203E2D9F9F9D117F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230C55CD1D32C059007405B9 /* PBXTargetDependency */,
+			);
+			name = MonsterMapperTests;
+			productName = MonsterMapperTests;
+			productReference = 230C55CB1D32C059007405B9 /* MonsterMapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		230C55AF1D32C059007405B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Monstographers;
+				TargetAttributes = {
+					230C55B61D32C059007405B9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					230C55CA1D32C059007405B9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 230C55B61D32C059007405B9;
+					};
+				};
+			};
+			buildConfigurationList = 230C55B21D32C059007405B9 /* Build configuration list for PBXProject "MonsterMapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 230C55AE1D32C059007405B9;
+			productRefGroup = 230C55B81D32C059007405B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				230C55B61D32C059007405B9 /* MonsterMapper */,
+				230C55CA1D32C059007405B9 /* MonsterMapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		230C55B51D32C059007405B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230C55C51D32C059007405B9 /* LaunchScreen.storyboard in Resources */,
+				230C55C21D32C059007405B9 /* Assets.xcassets in Resources */,
+				230C55DC1D32C09D007405B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230C55C91D32C059007405B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A72EE2177E24A048E3A07F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonsterMapperTests/Pods-MonsterMapperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		495011B00C67EBB7D3B8D3A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonsterMapper/Pods-MonsterMapper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50E6014C1DF4D47016196514 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonsterMapper/Pods-MonsterMapper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6268162DB6F0719935428F33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE02D26EC0428A9E082106B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E60C386203E2D9F9F9D117F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonsterMapperTests/Pods-MonsterMapperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		230C55B31D32C059007405B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230C55DE1D32C0B1007405B9 /* RegistrationViewController.swift in Sources */,
+				230C55BB1D32C059007405B9 /* AppDelegate.swift in Sources */,
+				230C55E01D32C0BD007405B9 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230C55C71D32C059007405B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230C55D01D32C059007405B9 /* MonsterMapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		230C55CD1D32C059007405B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 230C55B61D32C059007405B9 /* MonsterMapper */;
+			targetProxy = 230C55CC1D32C059007405B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		230C55C31D32C059007405B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230C55C41D32C059007405B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		230C55DA1D32C09D007405B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230C55DB1D32C09D007405B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		230C55D21D32C059007405B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		230C55D31D32C059007405B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		230C55D51D32C059007405B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CB4D9A99B04A297B544A31 /* Pods-MonsterMapper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MonsterMapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monstographers.MonsterMapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		230C55D61D32C059007405B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60780068176120BE606C3B3 /* Pods-MonsterMapper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MonsterMapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monstographers.MonsterMapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		230C55D81D32C059007405B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C3426AC59E99B54609FC84 /* Pods-MonsterMapperTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MonsterMapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monstographers.MonsterMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonsterMapper.app/MonsterMapper";
+			};
+			name = Debug;
+		};
+		230C55D91D32C059007405B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB458101A3B48422A797E10D /* Pods-MonsterMapperTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MonsterMapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monstographers.MonsterMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonsterMapper.app/MonsterMapper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230C55B21D32C059007405B9 /* Build configuration list for PBXProject "MonsterMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230C55D21D32C059007405B9 /* Debug */,
+				230C55D31D32C059007405B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230C55D41D32C059007405B9 /* Build configuration list for PBXNativeTarget "MonsterMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230C55D51D32C059007405B9 /* Debug */,
+				230C55D61D32C059007405B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230C55D71D32C059007405B9 /* Build configuration list for PBXNativeTarget "MonsterMapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230C55D81D32C059007405B9 /* Debug */,
+				230C55D91D32C059007405B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 230C55AF1D32C059007405B9 /* Project object */;
+}
