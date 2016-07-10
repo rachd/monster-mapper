@@ -370,6 +370,7 @@
 				230C55DB1D32C09D007405B9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
